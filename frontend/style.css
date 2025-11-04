@@ -121,3 +121,73 @@ body {
 .global-search input:focus {
     outline: none;
 }
+
+/* Login Page Styles */
+.login-page {
+    background-color: #f8f9fa;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.login-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.input-group i {
+    margin-right: 10px;
+    color: #999;
+}
+
+.input-group input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.input-group input:focus {
+    outline: none;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.signup-link {
+    margin-top: 20px;
+}

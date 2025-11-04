@@ -3,7 +3,7 @@ Vue.component('sidebar', {
         <div class="sidebar">
             <div class="company-switcher">
                 <div class="logo">
-                    <img src="../PiqueSquid V Logo O&P.png" alt="Company Logo" style="width: 150px;" />
+                    <img src="PiqueSquid V Logo O&P.png" alt="Company Logo" style="width: 150px;" />
                 </div>
                 <div class="actions">
                     <i class="material-icons">expand_more</i>
