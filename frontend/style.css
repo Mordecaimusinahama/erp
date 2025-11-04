@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#app {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background: #f0f2f5;
+    height: 100vh;
+    padding: 20px;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.dashboard {
+    padding: 20px;
+}
+
+.header-toolbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.widgets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.widget {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
