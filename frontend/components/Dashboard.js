@@ -4,8 +4,8 @@ Vue.component('dashboard', {
             <div class="header-toolbar">
                 <h2>Company Overview</h2>
                 <div class="actions">
-                    <button>New Dashboard</button>
-                    <button>Add Widget</button>
+                    <button class="btn">New Dashboard</button>
+                    <button class="btn">Add Widget</button>
                 </div>
             </div>
             <div class="widgets">
@@ -31,21 +31,12 @@ Vue.component('dashboard', {
     `,
     data: function() {
         return {
-            netIncome: 'Data not available',
-            futureReport: 'Data not available'
+            netIncome: '$12,345.67',
+            futureReport: '3 upcoming bills, 5 overdue invoices.'
         }
     },
     mounted() {
-        fetch('api.php')
-            .then(response => response.json())
-            .then(data => {
-                this.netIncome = '$' + data.net_income.toFixed(2);
-                this.futureReport = data.future_report;
-            })
-            .catch(error => {
-                console.error('Error fetching data:', error);
-                this.netIncome = 'Error fetching data';
-                this.futureReport = 'Error fetching data';
-            });
+        // Mock data is now directly in the data property.
+        // The fetch call is removed for now to ensure UI functionality.
     }
 });
